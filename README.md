@@ -23,7 +23,7 @@
     <li><code>preprocessing</code></li>
   </ul>
 
-  <p><strong>Rephrased flow:</strong> When the ETL pipeline runs, the pipeline passes a URL to the
+  <p>When the ETL pipeline runs, the pipeline passes a URL to the
     <em>download-data</em> component. That component produces an artifact named
     <code>raw_data</code> and stores it in Weights &amp; Biases (W&amp;B).</p>
 
