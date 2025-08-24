@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/com87/python/MLFlow/mlruns/0/50dd91c7eb3f4774a4a40fe51c7cbc55/artifacts
+end_time: 1755844246100
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 50dd91c7eb3f4774a4a40fe51c7cbc55
+run_name: judicious-dog-843
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755844238241
+status: 4
+tags: []
+user_id: com87

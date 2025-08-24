@@ -1,0 +1,13 @@
+name: download_file
+conda_env: conda.yml
+entry_points:
+  main:
+    parameters:
+      artifact_name: {type: str, description: "Name for the output artifact"}
+      artifact_type: {type: str, description: "Artifact type (for grouping in W&B)"}
+      artifact_description: {type: str, description: "Short description"}
+    command: >-
+      python run.py
+      --artifact_name {artifact_name}
+      --artifact_type {artifact_type}
+      --artifact_description {artifact_description}
